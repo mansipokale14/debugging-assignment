@@ -1,67 +1,63 @@
-# Trainee Developer Assignment
+# Debugging Assignment - Node.js
 
-## Overview
+## About This Task
+This project was given to me as a debugging assignment. The main goal was to find and fix errors in an existing Node.js and Express application.
 
-This assignment has 3 parts:
-
-1. Core Task (Mandatory)
-2. Notes Backend (Optional)
-3. Notes Frontend (Optional)
-
-You must complete the Core Task.
-You can choose Backend, Frontend, or both.
+The code had several issues like wrong variable names, logical mistakes, missing return statements, incorrect conditions, and some API-related bugs. I went through the code step by step, understood each part, and fixed all the problems.
 
 ---
 
-## 1. Core Task (Mandatory)
+## What I Have Done
+I have completed the task by fixing all the bugs in the given file and making sure all APIs are working properly.
 
-Fix bugs in the provided code and make sure the project runs correctly.
-
----
-
-## 2. Backend Task (Optional)
-
-Build a Notes API with following endpoints:
-
-- POST /notes
-- GET /notes
-- GET /notes/:id
-- PUT /notes/:id
-- DELETE /notes/:id
+Some of the main fixes include:
+- Corrected variable name mistakes
+- Fixed logical errors (like using `=` instead of `===`)
+- Handled type conversion issues (string to number)
+- Added missing return statements
+- Fixed function calls
+- Improved input validation
+- Added basic error handling
 
 ---
 
-## 3. Frontend Task (Optional)
-
-Build a Notes UI:
-
-- Show list of notes
-- Create note
-- Edit note
-- Delete note
+## Tech Stack Used
+- Node.js
+- Express.js
+- JavaScript
 
 ---
 
-## Rules
+## How to Run This Project
 
-- You can use Google / ChatGPT
-- Do not copy full project from internet
-- Keep code simple and readable
+1. Install dependencies:
+npm install
 
----
+2. Start the server:
+node debugging-assignment.js
 
-## Submission
-
-- Push code to GitHub
-- Share repository link
+3. Open browser or Postman and test:
+http://localhost:3000/users
 
 ---
 
-## Evaluation Criteria
+## API Endpoints You Can Test
 
-We evaluate:
-- Problem solving
-- Code quality
-- Understanding of basics
-- Effort and learning ability
+- GET /users → Get all users  
+- GET /users/:id → Get user by ID  
+- GET /notes → Get all notes  
+- POST /notes → Add a new note  
+- DELETE /notes/:id → Delete a note  
+- POST /login → Login API  
+- POST /sum → Add two numbers  
 
+---
+
+## What I Learned
+This assignment helped me understand how to debug real-world backend code. I learned how to identify small mistakes that can break the application and how to fix them properly.
+
+---
+
+## Final Note
+The project is now working correctly after fixing all the bugs.  
+Thank you for giving me this opportunity.
